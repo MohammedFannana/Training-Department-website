@@ -1,0 +1,345 @@
+
+
+/* Start Login Form */
+
+.login{
+    max-width: 350px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 110px;
+    background-color: #fcfcfd;
+    padding: 50px 30px 40px 30px;
+    border-radius: 10px;
+}
+
+
+.login h3,
+.sign h3{
+color:#008dde ;
+margin-bottom: 20px;
+}
+
+.login p a span{
+width: 20px;
+font-size: 17px;
+color: #C0C0C0;
+}
+
+.login .form-control,
+.signup .form-control{
+margin-bottom: 10px;
+width: 290px;
+
+}
+
+
+.login input::placeholder,
+.sign input::placeholder{
+    color:#adb5ca ;
+}
+
+.login i{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: #adb5ca;
+}
+
+.login .form-control:not(.submit){
+    padding-left: 40px;
+}
+
+.login .submit{
+background-color: #008dde;
+margin-bottom: 20px;
+
+}
+
+.login p{
+    color: #adb5ca ;
+    font-size: 15px;
+    text-align: center;
+}
+
+.login p a{
+    color: #008dde ;
+}
+
+.object i{
+    width: 60px;
+    height: 60px;
+    background-color: #008dde;
+    padding: 13px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 768px){
+    .object .col-md-4 {
+        flex: 0 0 auto;
+        width: 30%;
+    }
+}
+/* End Login Form */
+
+/* Start Sign Form */
+
+
+.signup p{
+    color: #C0C0C0;
+}
+
+.signup label{
+    color: #888888;
+}
+
+
+
+.sign{
+max-width: 350px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+background-color: #fcfcfd;
+padding:30px;
+border-radius: 10px;
+}
+
+.sign .text{
+    font-size: 15px;
+    margin: 20px auto;
+    text-align: center;
+    color: #888888;
+}
+
+.sign .submit{
+    background-color: #008dde;
+    color: white;
+}
+
+
+/* End Sign Form */
+
+/* Start Navbar Students */
+.navbar .ul_style li a{
+    transition: 0.5s;
+
+}
+
+.navbar .ul_style li a:hover{
+    background-color:#075395 ;
+    padding-left: 20px;
+    color: #fff;
+}
+
+/* To cancel the notification arrow  in navbarS */
+.navbar .one .dropdown-toggle::after{
+    border:none;
+}
+
+.navbar .one{
+    position: absolute;
+    right: 18%;
+}
+
+.navbar  .one .two{
+    margin-left: -330px;
+    min-width:25rem !important;
+}
+
+
+.navbar .three{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 17px 10px!important;
+    white-space:normal;
+
+}
+
+.navbar .three a{
+    white-space: normal;
+}
+
+
+.navbar .three:hover{
+    background-color:#0f6cbf;
+}
+
+.navbar .three:hover a{
+    color:#fff;
+}
+
+.navbar .three:hover i{
+    color: #fff !important;
+}
+
+.navbar .three a:hover{
+    background-color:transparent;
+}
+
+
+@media (max-width: 991px){
+    .navbar .one{
+        position: relative;
+        right: 0%;
+    }
+
+    .navbar  .one .two{
+        margin-left: 0px;
+    }
+
+
+} 
+
+
+@media (max-width: 480px){
+
+    .navbar  .one .two{
+        min-width:20rem !important;
+        margin-left: -70px!important;
+    }
+
+}
+
+
+
+/* End Navbar Students */
+
+/* Start Home Page In student page */
+
+.Studenthome  img{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border:4px solid #dddddd85;    
+}
+
+.Studenthome .card-body h3{
+    color: #008dde;
+}
+
+
+
+/* End Home Page In student page */
+
+/* Start Company profile page  and user profile in student.php*/
+
+
+.information ul li,
+.S_profile ul li{
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.information ul li i,
+.S_profile ul li i{
+    display: inline-block;
+    width: 25px;
+}
+
+.information ul li .head{
+    display: inline-block;
+    width: 140px;
+}
+
+.S_profile ul li span{
+    display: inline-block;
+    width: 120px;
+}
+
+.information ul li p{
+    display: inline-block;
+    margin: 0px;
+}
+
+/* End Company profile page and user profile in student.php*/
+
+/* Start company page */
+
+.offer_student ul li,
+.offer_Evaluation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer_student ul li span,
+.offer_Evaluation span{
+    font-size: 18px;
+}
+
+
+/* End company page */
+
+/* Start Cv Page */
+
+.list-group-item:hover {
+    z-index: 2!important; 
+    color: #fff!important; 
+    background-color: #0d6efd!important; 
+    border-color: #0efd!important;
+}
+
+.list-group-item.active {
+    z-index: 0!important; 
+    color: black!important; 
+    background-color: #fff!important; 
+    border-color: #fff!important;
+}
+
+/* End Cv Page */
+
+/* Start Admin Unviersty */
+
+
+.home-stats .stat{
+    background-color: #3498db;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-stats .stat i{
+        font-size: 60px;
+
+}
+
+.home-stats .stat span {
+    display: block;
+    font-size: 50px;
+}
+
+.home-stats a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.home-stats a:hover{
+    color: #FFF;
+}
+
+
+
+.letest-users li:nth-child(odd),
+.letest-company li:nth-child(odd) {
+    background-color: #eee;
+}
+
+.letest-users   li,
+.letest-company li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Admin Unviersty */
+
+
